@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26BD44A45831DD80A0AC1F1E /* Pods_MerchantiOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD957D5DEE42900795E162C3 /* Pods_MerchantiOSUITests.framework */; };
+		8021F25222F1EEA70022778B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8021F25122F1EEA70022778B /* AppDelegate.swift */; };
+		8021F25422F1EEA70022778B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8021F25322F1EEA70022778B /* ViewController.swift */; };
+		8021F25722F1EEA70022778B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8021F25522F1EEA70022778B /* Main.storyboard */; };
+		8021F25922F1EEA80022778B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8021F25822F1EEA80022778B /* Assets.xcassets */; };
+		8021F25C22F1EEA80022778B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8021F25A22F1EEA80022778B /* LaunchScreen.storyboard */; };
+		8021F26722F1EEA80022778B /* MerchantiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8021F26622F1EEA80022778B /* MerchantiOSTests.swift */; };
+		8021F27222F1EEA80022778B /* MerchantiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8021F27122F1EEA80022778B /* MerchantiOSUITests.swift */; };
+		8021F28022F1EFCC0022778B /* bunnybackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 8021F27F22F1EFCC0022778B /* bunnybackground.png */; };
+		8021F28222F1F9B30022778B /* lionhead-rabbit.png in Resources */ = {isa = PBXBuildFile; fileRef = 8021F28122F1F9B20022778B /* lionhead-rabbit.png */; };
+		8021F28322F34DF30022778B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8021F25322F1EEA70022778B /* ViewController.swift */; };
+		8021F28422F34DF40022778B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8021F25322F1EEA70022778B /* ViewController.swift */; };
+		95266080BE2ADC1D9FBC519D /* Pods_MerchantiOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB9410D9807120263F55DF0 /* Pods_MerchantiOSTests.framework */; };
+		B8847ECFE5D316501EF04A57 /* Pods_MerchantiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E932B1BD16D98273FE04AAFB /* Pods_MerchantiOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8021F26322F1EEA80022778B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8021F24622F1EEA70022778B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8021F24D22F1EEA70022778B;
+			remoteInfo = MerchantiOS;
+		};
+		8021F26E22F1EEA80022778B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8021F24622F1EEA70022778B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8021F24D22F1EEA70022778B;
+			remoteInfo = MerchantiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2221758EE68DA5BC6577BADF /* Pods-MerchantiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MerchantiOS.release.xcconfig"; path = "Target Support Files/Pods-MerchantiOS/Pods-MerchantiOS.release.xcconfig"; sourceTree = "<group>"; };
+		2967B34AE679A66CA822DE38 /* Pods-MerchantiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MerchantiOS.debug.xcconfig"; path = "Target Support Files/Pods-MerchantiOS/Pods-MerchantiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		7BB9410D9807120263F55DF0 /* Pods_MerchantiOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MerchantiOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8021F24E22F1EEA70022778B /* MerchantiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MerchantiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8021F25122F1EEA70022778B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8021F25322F1EEA70022778B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8021F25622F1EEA70022778B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8021F25822F1EEA80022778B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8021F25B22F1EEA80022778B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8021F25D22F1EEA80022778B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8021F26222F1EEA80022778B /* MerchantiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MerchantiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8021F26622F1EEA80022778B /* MerchantiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerchantiOSTests.swift; sourceTree = "<group>"; };
+		8021F26822F1EEA80022778B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8021F26D22F1EEA80022778B /* MerchantiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MerchantiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8021F27122F1EEA80022778B /* MerchantiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerchantiOSUITests.swift; sourceTree = "<group>"; };
+		8021F27322F1EEA80022778B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8021F27F22F1EFCC0022778B /* bunnybackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bunnybackground.png; path = ../../../bunnybackground.png; sourceTree = "<group>"; };
+		8021F28122F1F9B20022778B /* lionhead-rabbit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "lionhead-rabbit.png"; path = "../../../lionhead-rabbit.png"; sourceTree = "<group>"; };
+		8403C6C5EABC29109E093A6C /* Pods-MerchantiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MerchantiOSTests.debug.xcconfig"; path = "Target Support Files/Pods-MerchantiOSTests/Pods-MerchantiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD957D5DEE42900795E162C3 /* Pods_MerchantiOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MerchantiOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0228A6E641501DE26D8D840 /* Pods-MerchantiOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MerchantiOSUITests.release.xcconfig"; path = "Target Support Files/Pods-MerchantiOSUITests/Pods-MerchantiOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E8E5828D027C3C85737E665E /* Pods-MerchantiOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MerchantiOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-MerchantiOSUITests/Pods-MerchantiOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E932B1BD16D98273FE04AAFB /* Pods_MerchantiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MerchantiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0B6C951DF3AC8EC965C166 /* Pods-MerchantiOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MerchantiOSTests.release.xcconfig"; path = "Target Support Files/Pods-MerchantiOSTests/Pods-MerchantiOSTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8021F24B22F1EEA70022778B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8847ECFE5D316501EF04A57 /* Pods_MerchantiOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8021F25F22F1EEA80022778B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95266080BE2ADC1D9FBC519D /* Pods_MerchantiOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8021F26A22F1EEA80022778B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BD44A45831DD80A0AC1F1E /* Pods_MerchantiOSUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8021F24522F1EEA70022778B = {
+			isa = PBXGroup;
+			children = (
+				8021F25022F1EEA70022778B /* MerchantiOS */,
+				8021F26522F1EEA80022778B /* MerchantiOSTests */,
+				8021F27022F1EEA80022778B /* MerchantiOSUITests */,
+				8021F24F22F1EEA70022778B /* Products */,
+				95CE71664DC53E6C3899F28E /* Pods */,
+				D43689D54FDF594957687BE0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8021F24F22F1EEA70022778B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8021F24E22F1EEA70022778B /* MerchantiOS.app */,
+				8021F26222F1EEA80022778B /* MerchantiOSTests.xctest */,
+				8021F26D22F1EEA80022778B /* MerchantiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8021F25022F1EEA70022778B /* MerchantiOS */ = {
+			isa = PBXGroup;
+			children = (
+				8021F25122F1EEA70022778B /* AppDelegate.swift */,
+				8021F25322F1EEA70022778B /* ViewController.swift */,
+				8021F25522F1EEA70022778B /* Main.storyboard */,
+				8021F27F22F1EFCC0022778B /* bunnybackground.png */,
+				8021F28122F1F9B20022778B /* lionhead-rabbit.png */,
+				8021F25822F1EEA80022778B /* Assets.xcassets */,
+				8021F25A22F1EEA80022778B /* LaunchScreen.storyboard */,
+				8021F25D22F1EEA80022778B /* Info.plist */,
+			);
+			path = MerchantiOS;
+			sourceTree = "<group>";
+		};
+		8021F26522F1EEA80022778B /* MerchantiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				8021F26622F1EEA80022778B /* MerchantiOSTests.swift */,
+				8021F26822F1EEA80022778B /* Info.plist */,
+			);
+			path = MerchantiOSTests;
+			sourceTree = "<group>";
+		};
+		8021F27022F1EEA80022778B /* MerchantiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8021F27122F1EEA80022778B /* MerchantiOSUITests.swift */,
+				8021F27322F1EEA80022778B /* Info.plist */,
+			);
+			path = MerchantiOSUITests;
+			sourceTree = "<group>";
+		};
+		95CE71664DC53E6C3899F28E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2967B34AE679A66CA822DE38 /* Pods-MerchantiOS.debug.xcconfig */,
+				2221758EE68DA5BC6577BADF /* Pods-MerchantiOS.release.xcconfig */,
+				8403C6C5EABC29109E093A6C /* Pods-MerchantiOSTests.debug.xcconfig */,
+				EA0B6C951DF3AC8EC965C166 /* Pods-MerchantiOSTests.release.xcconfig */,
+				E8E5828D027C3C85737E665E /* Pods-MerchantiOSUITests.debug.xcconfig */,
+				D0228A6E641501DE26D8D840 /* Pods-MerchantiOSUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D43689D54FDF594957687BE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E932B1BD16D98273FE04AAFB /* Pods_MerchantiOS.framework */,
+				7BB9410D9807120263F55DF0 /* Pods_MerchantiOSTests.framework */,
+				AD957D5DEE42900795E162C3 /* Pods_MerchantiOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8021F24D22F1EEA70022778B /* MerchantiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8021F27622F1EEA80022778B /* Build configuration list for PBXNativeTarget "MerchantiOS" */;
+			buildPhases = (
+				15EAA5037327A1182A3ED843 /* [CP] Check Pods Manifest.lock */,
+				8021F24A22F1EEA70022778B /* Sources */,
+				8021F24B22F1EEA70022778B /* Frameworks */,
+				8021F24C22F1EEA70022778B /* Resources */,
+				741F53B6F8CDD2835084C4F8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MerchantiOS;
+			productName = MerchantiOS;
+			productReference = 8021F24E22F1EEA70022778B /* MerchantiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8021F26122F1EEA80022778B /* MerchantiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8021F27922F1EEA80022778B /* Build configuration list for PBXNativeTarget "MerchantiOSTests" */;
+			buildPhases = (
+				98ED6318179087482CA7B2A7 /* [CP] Check Pods Manifest.lock */,
+				8021F25E22F1EEA80022778B /* Sources */,
+				8021F25F22F1EEA80022778B /* Frameworks */,
+				8021F26022F1EEA80022778B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8021F26422F1EEA80022778B /* PBXTargetDependency */,
+			);
+			name = MerchantiOSTests;
+			productName = MerchantiOSTests;
+			productReference = 8021F26222F1EEA80022778B /* MerchantiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8021F26C22F1EEA80022778B /* MerchantiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8021F27C22F1EEA80022778B /* Build configuration list for PBXNativeTarget "MerchantiOSUITests" */;
+			buildPhases = (
+				5BE733345D88720CE96FC038 /* [CP] Check Pods Manifest.lock */,
+				8021F26922F1EEA80022778B /* Sources */,
+				8021F26A22F1EEA80022778B /* Frameworks */,
+				8021F26B22F1EEA80022778B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8021F26F22F1EEA80022778B /* PBXTargetDependency */,
+			);
+			name = MerchantiOSUITests;
+			productName = MerchantiOSUITests;
+			productReference = 8021F26D22F1EEA80022778B /* MerchantiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8021F24622F1EEA70022778B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Sue Chung";
+				TargetAttributes = {
+					8021F24D22F1EEA70022778B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					8021F26122F1EEA80022778B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8021F24D22F1EEA70022778B;
+					};
+					8021F26C22F1EEA80022778B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8021F24D22F1EEA70022778B;
+					};
+				};
+			};
+			buildConfigurationList = 8021F24922F1EEA70022778B /* Build configuration list for PBXProject "MerchantiOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8021F24522F1EEA70022778B;
+			productRefGroup = 8021F24F22F1EEA70022778B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8021F24D22F1EEA70022778B /* MerchantiOS */,
+				8021F26122F1EEA80022778B /* MerchantiOSTests */,
+				8021F26C22F1EEA80022778B /* MerchantiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8021F24C22F1EEA70022778B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8021F28222F1F9B30022778B /* lionhead-rabbit.png in Resources */,
+				8021F25C22F1EEA80022778B /* LaunchScreen.storyboard in Resources */,
+				8021F25922F1EEA80022778B /* Assets.xcassets in Resources */,
+				8021F28022F1EFCC0022778B /* bunnybackground.png in Resources */,
+				8021F25722F1EEA70022778B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8021F26022F1EEA80022778B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8021F26B22F1EEA80022778B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15EAA5037327A1182A3ED843 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MerchantiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BE733345D88720CE96FC038 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MerchantiOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		741F53B6F8CDD2835084C4F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MerchantiOS/Pods-MerchantiOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MerchantiOS/Pods-MerchantiOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MerchantiOS/Pods-MerchantiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98ED6318179087482CA7B2A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MerchantiOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8021F24A22F1EEA70022778B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8021F25422F1EEA70022778B /* ViewController.swift in Sources */,
+				8021F25222F1EEA70022778B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8021F25E22F1EEA80022778B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8021F28322F34DF30022778B /* ViewController.swift in Sources */,
+				8021F26722F1EEA80022778B /* MerchantiOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8021F26922F1EEA80022778B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8021F28422F34DF40022778B /* ViewController.swift in Sources */,
+				8021F27222F1EEA80022778B /* MerchantiOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8021F26422F1EEA80022778B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8021F24D22F1EEA70022778B /* MerchantiOS */;
+			targetProxy = 8021F26322F1EEA80022778B /* PBXContainerItemProxy */;
+		};
+		8021F26F22F1EEA80022778B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8021F24D22F1EEA70022778B /* MerchantiOS */;
+			targetProxy = 8021F26E22F1EEA80022778B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8021F25522F1EEA70022778B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8021F25622F1EEA70022778B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8021F25A22F1EEA80022778B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8021F25B22F1EEA80022778B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8021F27422F1EEA80022778B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8021F27522F1EEA80022778B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8021F27722F1EEA80022778B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2967B34AE679A66CA822DE38 /* Pods-MerchantiOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Y4L9J8RXJ;
+				INFOPLIST_FILE = MerchantiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.button.MerchantiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8021F27822F1EEA80022778B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2221758EE68DA5BC6577BADF /* Pods-MerchantiOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Y4L9J8RXJ;
+				INFOPLIST_FILE = MerchantiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.button.MerchantiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8021F27A22F1EEA80022778B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8403C6C5EABC29109E093A6C /* Pods-MerchantiOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Y4L9J8RXJ;
+				INFOPLIST_FILE = MerchantiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.button.MerchantiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MerchantiOS.app/MerchantiOS";
+			};
+			name = Debug;
+		};
+		8021F27B22F1EEA80022778B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA0B6C951DF3AC8EC965C166 /* Pods-MerchantiOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Y4L9J8RXJ;
+				INFOPLIST_FILE = MerchantiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.button.MerchantiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MerchantiOS.app/MerchantiOS";
+			};
+			name = Release;
+		};
+		8021F27D22F1EEA80022778B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8E5828D027C3C85737E665E /* Pods-MerchantiOSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Y4L9J8RXJ;
+				INFOPLIST_FILE = MerchantiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.button.MerchantiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MerchantiOS;
+			};
+			name = Debug;
+		};
+		8021F27E22F1EEA80022778B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0228A6E641501DE26D8D840 /* Pods-MerchantiOSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Y4L9J8RXJ;
+				INFOPLIST_FILE = MerchantiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.button.MerchantiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MerchantiOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8021F24922F1EEA70022778B /* Build configuration list for PBXProject "MerchantiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8021F27422F1EEA80022778B /* Debug */,
+				8021F27522F1EEA80022778B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8021F27622F1EEA80022778B /* Build configuration list for PBXNativeTarget "MerchantiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8021F27722F1EEA80022778B /* Debug */,
+				8021F27822F1EEA80022778B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8021F27922F1EEA80022778B /* Build configuration list for PBXNativeTarget "MerchantiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8021F27A22F1EEA80022778B /* Debug */,
+				8021F27B22F1EEA80022778B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8021F27C22F1EEA80022778B /* Build configuration list for PBXNativeTarget "MerchantiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8021F27D22F1EEA80022778B /* Debug */,
+				8021F27E22F1EEA80022778B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8021F24622F1EEA70022778B /* Project object */;
+}

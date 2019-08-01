@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (4.8.2)
+  - ButtonMerchant (1.0.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - ButtonMerchant (~> 1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - ButtonMerchant
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  ButtonMerchant: 3e11a69d014d1ef7b553cb15bcacf1e1ddc4c024
+
+PODFILE CHECKSUM: e62692b840a04dac03f251cb245ab3aa68ba8484
+
+COCOAPODS: 1.7.5

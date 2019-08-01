@@ -1,0 +1,6 @@
+framework module ButtonMerchant {
+  umbrella header "ButtonMerchant-umbrella.h"
+
+  export *
+  module * { export * }
+}

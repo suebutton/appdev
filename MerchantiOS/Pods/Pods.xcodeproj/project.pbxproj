@@ -1,0 +1,1304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		095F3C0238711EAC65F1450784009169 /* Pods-MerchantiOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D09BF131BC8FD752FBD6D8F9DA528D /* Pods-MerchantiOSTests-dummy.m */; };
+		0C5E11DE24DAA737704B355F5F2F3426 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65092B9D41B3264C05C0F6093ABB7D36 /* ParameterEncoding.swift */; };
+		11951A3F05D0A1CC3DA98080C1153495 /* ASIdentifierManagerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723165158FDEE5010CDE2A39437866B7 /* ASIdentifierManagerExtensions.swift */; };
+		132E0F619E4338E5D1B27E4C72076B3F /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E321A338BCE151AB12B2C2B505A390B /* Notifications.swift */; };
+		16B359F35E9BC72D1B6E417586FF4569 /* System.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0F514BC9161C5CAEBDD230A3E41B0F /* System.swift */; };
+		1945CD5D63A1C164AEAAA9A33E85571E /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AC6CBCBAA64AA440F9E422C2BD89A3 /* Alamofire-dummy.m */; };
+		1986B50C74F1697EA43F68335C93CEB3 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FB246C8C6838D438CF020496DE126B /* MultipartFormData.swift */; };
+		22E7B8C1F2EF89590E92A7CABDE7A857 /* Pods-MerchantiOSUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C8643D577BDD4C32908E457D457020B /* Pods-MerchantiOSUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2498668E1DDA84303D8CF76BD6C6256E /* Version.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEC2F03A6A5DD5695E877FD2FEAF5F3 /* Version.generated.swift */; };
+		2565DFC706047AFB1A7E464A12CE90AE /* URLSessionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4EB20012AD57EC0588D51C721209F7 /* URLSessionExtensions.swift */; };
+		2C61B040BA6A9A7AE66C4D9BA26D5520 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C4A04E5F7E6A08B5A36B8937FAA362 /* SessionDelegate.swift */; };
+		304903E1CB687EB28993A614C84835BF /* Pods-MerchantiOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74EF97D3665C8547B10B474DD2938050 /* Pods-MerchantiOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3571F958A3907B3A806E62D50C2550D4 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E96993E6F0012F981A00D9119B0470B /* NetworkReachabilityManager.swift */; };
+		3C488863C8758372FE92DE8F3241F655 /* ButtonMerchant-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF98F38441A95DBF65AAB8771FC40A1 /* ButtonMerchant-dummy.m */; };
+		4210DFBBD034137B555F53595CEC4A1C /* NotificationCenterExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C2FA5F2A6678E9C5BA6BC5CB0EE10A /* NotificationCenterExtensions.swift */; };
+		4ADC0C4D32F6514B92CBFA2DFB347783 /* FileManagerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E643490939D6BAC5F28ADC3422AE6D6C /* FileManagerExtensions.swift */; };
+		53791F5E5F07400F92CFDFC89A432305 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516DB46AB55A68D9B142FFA0EB2C84CA /* Validation.swift */; };
+		5A10D73125F076EEACB8ABA220C7C6A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		64744C911253C3E01461FAD7C935C8D7 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3701DFC5FE2448E0D7DCB61101A3AE5 /* Result.swift */; };
+		715B7DF8A1467C16085FCFD700C40997 /* ConfigurationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3675EED06EFC8DA38909BE5E8391D5 /* ConfigurationError.swift */; };
+		721508CB40B4917F06588BF3B65FF900 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D888944C13C1DC9DAA34924194B2E /* Client.swift */; };
+		73647729A0CF69E252C16B0F2A80D90F /* Pods-MerchantiOSUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FD61F304AD60E25B636D0B5A4F9A56 /* Pods-MerchantiOSUITests-dummy.m */; };
+		7664FD4F59A0C00866CBAE60B0A3AD64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		83956E20859CDBBE7BC38ABADE0170FB /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4424D1538C0AB65DB1AC05EA9E88B17E /* AFError.swift */; };
+		84A5743B07958BBC32CCCEB4275E45BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		91A7647E8A1D11F72F35BF13C58CD014 /* UserDefaultsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A966ED64AAAC6472C539EFB0CC3ECC9E /* UserDefaultsExtensions.swift */; };
+		931BBB8230A25161D5C37528A8F9FECF /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5277B5F2C52BA5388CFFA55AE54D73EE /* SessionManager.swift */; };
+		933FDA5970AA525D6CB92BFEBA2BAB4A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276BE0EB14CC4B3542EC04F7AE2D5773 /* Timeline.swift */; };
+		93FA467BCEC4E9036BA29101AC61F19E /* ButtonMerchant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C606A61CA8C4A3C83DCC6946F8B2622 /* ButtonMerchant.swift */; };
+		98A929C8E9012AB167672714FFD2113C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A375C386D20507472ED235BE68905C5 /* Request.swift */; };
+		9C981919FE0790FB89CE2EA5FA57E9FC /* NotificationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B05490411A3C0FC86A44407E0234131 /* NotificationExtensions.swift */; };
+		A373DA6D2D100B5AAE7941D7EB7689A4 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E328E5942100E4B255FD5995770F81 /* Order.swift */; };
+		A3FEBF46D1142743BB2C16BCA30A65F0 /* Pods-MerchantiOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D24A31F01B7A016073F813581E905E4 /* Pods-MerchantiOS-dummy.m */; };
+		A4C94FC45D4C0B22AF50E35DA677E684 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895E9B8A5EA59F54393E2F42B15E49C7 /* DateExtensions.swift */; };
+		AFC64B1097F7355FF423D6A73E9C7210 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AC77088C711CBD27EFD65F4A5EA07C /* TaskDelegate.swift */; };
+		B2DFDF7B3126007454C765DBB9630237 /* Pods-MerchantiOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC50DB734CDEC3C372D023173B72A4E9 /* Pods-MerchantiOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE4BD3D46DF6F3615ACD7BA0CE656DF0 /* UIDeviceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96E6FBDDE54F3468A94DB1C83962100 /* UIDeviceExtensions.swift */; };
+		BEE6B677416CA71C981D1D3F60B18C96 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAF59343FE7DD4AF72256F3972FABC4 /* Alamofire.swift */; };
+		BEF8FAC66C96F327CFEB251ACE218FC4 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BAEAF20A764710BE14863BE9B85BED /* Core.swift */; };
+		BFDA2E7F74C68FD9EE62FB1E33411F44 /* CalendarExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7635E86814E2354588E615496B4A8C4E /* CalendarExtensions.swift */; };
+		C37F9D52212D00D9EB3A535018E44370 /* PostInstallBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA78D51C0A9B42C8A6D7FEA69D8F807 /* PostInstallBody.swift */; };
+		C77207808F4602DB1F8E0BD1DDB85638 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		CB4A437154A7258B960F348254CF98AF /* LocaleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AEDB532BE76BF696947BA205365B0 /* LocaleExtensions.swift */; };
+		D23E37D9AAB0C533E8122750A031E081 /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91685F3BDF818BCBF179BEBD43ED5153 /* BundleExtensions.swift */; };
+		D3D8C379C6E4FB487E5ABD6800AD7B7E /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C963C031C31DA8CE89A707D31C05E6E /* DispatchQueue+Alamofire.swift */; };
+		D65C254F5ABF2CB5ECEE50FE8F8E1A80 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5892A103BD77ACD2459820E746E5DB2 /* Response.swift */; };
+		D7CD36B7898761EBCC6FA02987CC5524 /* ButtonDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08857920829F7CD5A8E78F9BAAFF11D /* ButtonDefaults.swift */; };
+		DAF29BAFF4DBFDD6F6CAD8F395031C3A /* UserAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36991B5AD649B3831065BBB8878D985D /* UserAgent.swift */; };
+		E0F415A16F3C35F7CAA1BB307EB17861 /* TrackOrderBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC92C0AF88DA207C71CFCCCB086981AF /* TrackOrderBody.swift */; };
+		E1A4942C61A11D57EB11E34FDD0F7666 /* EncodableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D078E0E40E4D9C23742CAB59FB5BE31 /* EncodableExtensions.swift */; };
+		E3747EC31FCCA97D75A81FC700CF7E24 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43319AA2348ED4321923204689ADC6C /* ResponseSerialization.swift */; };
+		EB2AA0412C9982D91A4C8FEFF87673A4 /* URLSessionDataTaskExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BFFCD7DAA684F74B9EBE72E24BE9C2 /* URLSessionDataTaskExtensions.swift */; };
+		ED248C1B025E714D37052CCBB3941FBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EF485F0548CD9792654C70390FE93219 /* ButtonMerchant-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20D28A496706159AA91AC2142EEC7DDE /* ButtonMerchant-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F13F2AA7F2E6D95A181CAB99B900D531 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0F01BE2449ADB873AC8CC6647E8555 /* ServerTrustPolicy.swift */; };
+		F32D651742AE6CB91CB630B1BB369897 /* UIScreenExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B052525EF641A383AF6A5E2626BA85 /* UIScreenExtensions.swift */; };
+		F7B74645E07C39771156A1FA413B98D4 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53DBED82B5B560C8AA414FCF2B8318B6 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A6D3B3CAE6752852D5FE4B7DC3511D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E249FF633F08602DEA7B407AC8AFF0BF;
+			remoteInfo = ButtonMerchant;
+		};
+		866E4256C8883BAFA5AA6AF3A1FBBE4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C8A572479EB260A440CC08D33B43812;
+			remoteInfo = "Pods-MerchantiOS";
+		};
+		866FC038E47C1BB5A93199A2984D3939 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		87319279EFA3A163248B231EAD2B4281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C8A572479EB260A440CC08D33B43812;
+			remoteInfo = "Pods-MerchantiOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09C2FA5F2A6678E9C5BA6BC5CB0EE10A /* NotificationCenterExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationCenterExtensions.swift; path = Source/Extensions/NotificationCenterExtensions.swift; sourceTree = "<group>"; };
+		0E96993E6F0012F981A00D9119B0470B /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		14BFFCD7DAA684F74B9EBE72E24BE9C2 /* URLSessionDataTaskExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLSessionDataTaskExtensions.swift; path = Source/Extensions/URLSessionDataTaskExtensions.swift; sourceTree = "<group>"; };
+		15AC6CBCBAA64AA440F9E422C2BD89A3 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		18874373D932FFE2ED5E8E546BCAC4A3 /* Pods-MerchantiOSUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MerchantiOSUITests.modulemap"; sourceTree = "<group>"; };
+		1A4EB20012AD57EC0588D51C721209F7 /* URLSessionExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLSessionExtensions.swift; path = Source/Extensions/URLSessionExtensions.swift; sourceTree = "<group>"; };
+		2044C9CE5C39BA6323DEEA36F35DEB50 /* ButtonMerchant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ButtonMerchant.framework; path = ButtonMerchant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20D28A496706159AA91AC2142EEC7DDE /* ButtonMerchant-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ButtonMerchant-umbrella.h"; sourceTree = "<group>"; };
+		268DA27396894CD0092ACBDBE820998F /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		26A72147CFD399F44D2D7F2C256E8BB7 /* Pods-MerchantiOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MerchantiOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		276BE0EB14CC4B3542EC04F7AE2D5773 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		2C8643D577BDD4C32908E457D457020B /* Pods-MerchantiOSUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MerchantiOSUITests-umbrella.h"; sourceTree = "<group>"; };
+		2D24A31F01B7A016073F813581E905E4 /* Pods-MerchantiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MerchantiOS-dummy.m"; sourceTree = "<group>"; };
+		2E9C87877230F357E3EC6944CF5A0C6B /* Pods-MerchantiOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MerchantiOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		361F3A18BBE139A4E8DDB3000812F071 /* ButtonMerchant-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ButtonMerchant-prefix.pch"; sourceTree = "<group>"; };
+		36991B5AD649B3831065BBB8878D985D /* UserAgent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserAgent.swift; path = Source/UserAgent.swift; sourceTree = "<group>"; };
+		3A375C386D20507472ED235BE68905C5 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		3D3AEDB532BE76BF696947BA205365B0 /* LocaleExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocaleExtensions.swift; path = Source/Extensions/LocaleExtensions.swift; sourceTree = "<group>"; };
+		40025352A3F517CACDCAF9BD8EB2BAC2 /* Pods-MerchantiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MerchantiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		42F6D2F2CAEB45DD62ECB8D0B2E52C34 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		4424D1538C0AB65DB1AC05EA9E88B17E /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		4A0F514BC9161C5CAEBDD230A3E41B0F /* System.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = System.swift; path = Source/System.swift; sourceTree = "<group>"; };
+		4A3DD425BDCDDAC5EE79422BD63D689C /* Pods_MerchantiOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MerchantiOSTests.framework; path = "Pods-MerchantiOSTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		516DB46AB55A68D9B142FFA0EB2C84CA /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		5277B5F2C52BA5388CFFA55AE54D73EE /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		52833139CFBB444CEE82269C3B9C5E64 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		53DBED82B5B560C8AA414FCF2B8318B6 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		5CF98F38441A95DBF65AAB8771FC40A1 /* ButtonMerchant-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ButtonMerchant-dummy.m"; sourceTree = "<group>"; };
+		5D078E0E40E4D9C23742CAB59FB5BE31 /* EncodableExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EncodableExtensions.swift; path = Source/Extensions/EncodableExtensions.swift; sourceTree = "<group>"; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E321A338BCE151AB12B2C2B505A390B /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		613F51442A4A055FF1E14EA6290EB03A /* Pods-MerchantiOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MerchantiOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		63FD61F304AD60E25B636D0B5A4F9A56 /* Pods-MerchantiOSUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MerchantiOSUITests-dummy.m"; sourceTree = "<group>"; };
+		65092B9D41B3264C05C0F6093ABB7D36 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		7155B9516E914C75F6B343C04D657F35 /* Pods-MerchantiOSUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MerchantiOSUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		723165158FDEE5010CDE2A39437866B7 /* ASIdentifierManagerExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASIdentifierManagerExtensions.swift; path = Source/Extensions/ASIdentifierManagerExtensions.swift; sourceTree = "<group>"; };
+		726B3F36A787DE4E6FC26DD7F76D2C9C /* Pods-MerchantiOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MerchantiOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		7464518040FB43A4A7EE9280C94BA86A /* Pods_MerchantiOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MerchantiOSUITests.framework; path = "Pods-MerchantiOSUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74EF97D3665C8547B10B474DD2938050 /* Pods-MerchantiOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MerchantiOSTests-umbrella.h"; sourceTree = "<group>"; };
+		74FB246C8C6838D438CF020496DE126B /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		7635E86814E2354588E615496B4A8C4E /* CalendarExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarExtensions.swift; path = Source/Extensions/CalendarExtensions.swift; sourceTree = "<group>"; };
+		778B82AAF91BBB4BE704CFC580CF4DBC /* ButtonMerchant.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ButtonMerchant.xcconfig; sourceTree = "<group>"; };
+		7B3675EED06EFC8DA38909BE5E8391D5 /* ConfigurationError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfigurationError.swift; path = Source/ConfigurationError.swift; sourceTree = "<group>"; };
+		7C606A61CA8C4A3C83DCC6946F8B2622 /* ButtonMerchant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonMerchant.swift; path = Source/ButtonMerchant.swift; sourceTree = "<group>"; };
+		7EA78D51C0A9B42C8A6D7FEA69D8F807 /* PostInstallBody.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PostInstallBody.swift; path = Source/PostInstallBody.swift; sourceTree = "<group>"; };
+		895E9B8A5EA59F54393E2F42B15E49C7 /* DateExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateExtensions.swift; path = Source/Extensions/DateExtensions.swift; sourceTree = "<group>"; };
+		89F951E3372EE5373064529F570B5C9D /* Pods-MerchantiOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MerchantiOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B05490411A3C0FC86A44407E0234131 /* NotificationExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationExtensions.swift; path = Source/Extensions/NotificationExtensions.swift; sourceTree = "<group>"; };
+		8BD7C442095B6E8185A9AB2CD6BCEE2C /* Pods-MerchantiOSTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MerchantiOSTests-Info.plist"; sourceTree = "<group>"; };
+		8C963C031C31DA8CE89A707D31C05E6E /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		8CFBD6B4E193FC8D2C243E1A5339DDA7 /* Pods-MerchantiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MerchantiOS.release.xcconfig"; sourceTree = "<group>"; };
+		8DC1A4922EC480A72DBA69D8025EE55E /* Pods-MerchantiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MerchantiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		8DEC2F03A6A5DD5695E877FD2FEAF5F3 /* Version.generated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Version.generated.swift; path = Source/Version/Version.generated.swift; sourceTree = "<group>"; };
+		91685F3BDF818BCBF179BEBD43ED5153 /* BundleExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BundleExtensions.swift; path = Source/Extensions/BundleExtensions.swift; sourceTree = "<group>"; };
+		9AAF59343FE7DD4AF72256F3972FABC4 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E65DB4244A7F6F87077396DFAB30E64 /* Pods_MerchantiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MerchantiOS.framework; path = "Pods-MerchantiOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C4A04E5F7E6A08B5A36B8937FAA362 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		A2B23AEDB0A7AB3073365CC4E0D214EA /* Pods-MerchantiOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MerchantiOS-Info.plist"; sourceTree = "<group>"; };
+		A6E328E5942100E4B255FD5995770F81 /* Order.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Order.swift; path = Source/Order.swift; sourceTree = "<group>"; };
+		A73F8AD9E94DA24FE3A9CCB81EF2DCC8 /* Pods-MerchantiOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MerchantiOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A966ED64AAAC6472C539EFB0CC3ECC9E /* UserDefaultsExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserDefaultsExtensions.swift; path = Source/Extensions/UserDefaultsExtensions.swift; sourceTree = "<group>"; };
+		B06030AE8DD3D2CADA437CA736E38712 /* Pods-MerchantiOSUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MerchantiOSUITests-Info.plist"; sourceTree = "<group>"; };
+		B14FCBBF84BCB146AB16B45DD5C6A809 /* Pods-MerchantiOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MerchantiOSTests.modulemap"; sourceTree = "<group>"; };
+		B2D09BF131BC8FD752FBD6D8F9DA528D /* Pods-MerchantiOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MerchantiOSTests-dummy.m"; sourceTree = "<group>"; };
+		B3701DFC5FE2448E0D7DCB61101A3AE5 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		BC92C0AF88DA207C71CFCCCB086981AF /* TrackOrderBody.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrackOrderBody.swift; path = Source/TrackOrderBody.swift; sourceTree = "<group>"; };
+		C12D888944C13C1DC9DAA34924194B2E /* Client.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Client.swift; path = Source/Client.swift; sourceTree = "<group>"; };
+		CEEAFEFE8832CB8BA225ABA46A6199B1 /* Pods-MerchantiOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MerchantiOS.modulemap"; sourceTree = "<group>"; };
+		D08857920829F7CD5A8E78F9BAAFF11D /* ButtonDefaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonDefaults.swift; path = Source/ButtonDefaults.swift; sourceTree = "<group>"; };
+		D43319AA2348ED4321923204689ADC6C /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		D9B052525EF641A383AF6A5E2626BA85 /* UIScreenExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIScreenExtensions.swift; path = Source/Extensions/UIScreenExtensions.swift; sourceTree = "<group>"; };
+		DB44DF23B039C084C700B20EB7B1A850 /* ButtonMerchant-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ButtonMerchant-Info.plist"; sourceTree = "<group>"; };
+		DB6876EB798485D686E252C8FAF1D560 /* Pods-MerchantiOSUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MerchantiOSUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DF4C8E4F1AE10D3A31C3B5EEE9CAB373 /* Pods-MerchantiOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MerchantiOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E5892A103BD77ACD2459820E746E5DB2 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		E5AC77088C711CBD27EFD65F4A5EA07C /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		E643490939D6BAC5F28ADC3422AE6D6C /* FileManagerExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileManagerExtensions.swift; path = Source/Extensions/FileManagerExtensions.swift; sourceTree = "<group>"; };
+		E6BAEAF20A764710BE14863BE9B85BED /* Core.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Core.swift; path = Source/Core.swift; sourceTree = "<group>"; };
+		EF7D08927A3E63D388C3B8C6430679D8 /* ButtonMerchant.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ButtonMerchant.modulemap; sourceTree = "<group>"; };
+		F200CF3300E7E135E54EE21AE19B5C93 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		F340BF74AFA5A838A1CD90D76A360EF9 /* Pods-MerchantiOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MerchantiOS-frameworks.sh"; sourceTree = "<group>"; };
+		F96E6FBDDE54F3468A94DB1C83962100 /* UIDeviceExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIDeviceExtensions.swift; path = Source/Extensions/UIDeviceExtensions.swift; sourceTree = "<group>"; };
+		FC50DB734CDEC3C372D023173B72A4E9 /* Pods-MerchantiOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MerchantiOS-umbrella.h"; sourceTree = "<group>"; };
+		FF0F01BE2449ADB873AC8CC6647E8555 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		090C1D63463ACF622287EFF9D5C9392D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7664FD4F59A0C00866CBAE60B0A3AD64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		221B6E25A47DF11088D685C9E806E8B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A10D73125F076EEACB8ABA220C7C6A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE5212166F841EF1EB919B18D695CD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77207808F4602DB1F8E0BD1DDB85638 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F2488E6EF40BCA52E2733F1ED16110D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED248C1B025E714D37052CCBB3941FBF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C19244830EDA8194C77AE49C84CD51C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A5743B07958BBC32CCCEB4275E45BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0027FAE515A202247DD7EACE448C9866 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				149A218CF4B1E3084E461C8CD997FE94 /* Pods-MerchantiOS */,
+				CE69582589B47155798CF80675C51AC9 /* Pods-MerchantiOSTests */,
+				36DC6177A43B01C10F1FF708824FD426 /* Pods-MerchantiOSUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		149A218CF4B1E3084E461C8CD997FE94 /* Pods-MerchantiOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEEAFEFE8832CB8BA225ABA46A6199B1 /* Pods-MerchantiOS.modulemap */,
+				613F51442A4A055FF1E14EA6290EB03A /* Pods-MerchantiOS-acknowledgements.markdown */,
+				726B3F36A787DE4E6FC26DD7F76D2C9C /* Pods-MerchantiOS-acknowledgements.plist */,
+				2D24A31F01B7A016073F813581E905E4 /* Pods-MerchantiOS-dummy.m */,
+				F340BF74AFA5A838A1CD90D76A360EF9 /* Pods-MerchantiOS-frameworks.sh */,
+				A2B23AEDB0A7AB3073365CC4E0D214EA /* Pods-MerchantiOS-Info.plist */,
+				FC50DB734CDEC3C372D023173B72A4E9 /* Pods-MerchantiOS-umbrella.h */,
+				8DC1A4922EC480A72DBA69D8025EE55E /* Pods-MerchantiOS.debug.xcconfig */,
+				8CFBD6B4E193FC8D2C243E1A5339DDA7 /* Pods-MerchantiOS.release.xcconfig */,
+			);
+			name = "Pods-MerchantiOS";
+			path = "Target Support Files/Pods-MerchantiOS";
+			sourceTree = "<group>";
+		};
+		2421A8A55BEBC40AF39D87FE3DE461C6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				42F6D2F2CAEB45DD62ECB8D0B2E52C34 /* Alamofire.modulemap */,
+				268DA27396894CD0092ACBDBE820998F /* Alamofire.xcconfig */,
+				15AC6CBCBAA64AA440F9E422C2BD89A3 /* Alamofire-dummy.m */,
+				F200CF3300E7E135E54EE21AE19B5C93 /* Alamofire-Info.plist */,
+				52833139CFBB444CEE82269C3B9C5E64 /* Alamofire-prefix.pch */,
+				53DBED82B5B560C8AA414FCF2B8318B6 /* Alamofire-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		2DDE09AE7EA16AFC6F6723E2DCAA9C13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A937D9A41F71CD865D917DA3FE6CC0C /* Alamofire */,
+				F57EDA4E52DBA101F9A83D0EAC78E0C1 /* ButtonMerchant */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		36DC6177A43B01C10F1FF708824FD426 /* Pods-MerchantiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18874373D932FFE2ED5E8E546BCAC4A3 /* Pods-MerchantiOSUITests.modulemap */,
+				DB6876EB798485D686E252C8FAF1D560 /* Pods-MerchantiOSUITests-acknowledgements.markdown */,
+				7155B9516E914C75F6B343C04D657F35 /* Pods-MerchantiOSUITests-acknowledgements.plist */,
+				63FD61F304AD60E25B636D0B5A4F9A56 /* Pods-MerchantiOSUITests-dummy.m */,
+				B06030AE8DD3D2CADA437CA736E38712 /* Pods-MerchantiOSUITests-Info.plist */,
+				2C8643D577BDD4C32908E457D457020B /* Pods-MerchantiOSUITests-umbrella.h */,
+				89F951E3372EE5373064529F570B5C9D /* Pods-MerchantiOSUITests.debug.xcconfig */,
+				26A72147CFD399F44D2D7F2C256E8BB7 /* Pods-MerchantiOSUITests.release.xcconfig */,
+			);
+			name = "Pods-MerchantiOSUITests";
+			path = "Target Support Files/Pods-MerchantiOSUITests";
+			sourceTree = "<group>";
+		};
+		53F40421CF782691372829E689B15640 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
+				2044C9CE5C39BA6323DEEA36F35DEB50 /* ButtonMerchant.framework */,
+				9E65DB4244A7F6F87077396DFAB30E64 /* Pods_MerchantiOS.framework */,
+				4A3DD425BDCDDAC5EE79422BD63D689C /* Pods_MerchantiOSTests.framework */,
+				7464518040FB43A4A7EE9280C94BA86A /* Pods_MerchantiOSUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57C1CFB691139978D8F41A2BC29D55A0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF7D08927A3E63D388C3B8C6430679D8 /* ButtonMerchant.modulemap */,
+				778B82AAF91BBB4BE704CFC580CF4DBC /* ButtonMerchant.xcconfig */,
+				5CF98F38441A95DBF65AAB8771FC40A1 /* ButtonMerchant-dummy.m */,
+				DB44DF23B039C084C700B20EB7B1A850 /* ButtonMerchant-Info.plist */,
+				361F3A18BBE139A4E8DDB3000812F071 /* ButtonMerchant-prefix.pch */,
+				20D28A496706159AA91AC2142EEC7DDE /* ButtonMerchant-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ButtonMerchant";
+			sourceTree = "<group>";
+		};
+		8A937D9A41F71CD865D917DA3FE6CC0C /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				4424D1538C0AB65DB1AC05EA9E88B17E /* AFError.swift */,
+				9AAF59343FE7DD4AF72256F3972FABC4 /* Alamofire.swift */,
+				8C963C031C31DA8CE89A707D31C05E6E /* DispatchQueue+Alamofire.swift */,
+				74FB246C8C6838D438CF020496DE126B /* MultipartFormData.swift */,
+				0E96993E6F0012F981A00D9119B0470B /* NetworkReachabilityManager.swift */,
+				5E321A338BCE151AB12B2C2B505A390B /* Notifications.swift */,
+				65092B9D41B3264C05C0F6093ABB7D36 /* ParameterEncoding.swift */,
+				3A375C386D20507472ED235BE68905C5 /* Request.swift */,
+				E5892A103BD77ACD2459820E746E5DB2 /* Response.swift */,
+				D43319AA2348ED4321923204689ADC6C /* ResponseSerialization.swift */,
+				B3701DFC5FE2448E0D7DCB61101A3AE5 /* Result.swift */,
+				FF0F01BE2449ADB873AC8CC6647E8555 /* ServerTrustPolicy.swift */,
+				A0C4A04E5F7E6A08B5A36B8937FAA362 /* SessionDelegate.swift */,
+				5277B5F2C52BA5388CFFA55AE54D73EE /* SessionManager.swift */,
+				E5AC77088C711CBD27EFD65F4A5EA07C /* TaskDelegate.swift */,
+				276BE0EB14CC4B3542EC04F7AE2D5773 /* Timeline.swift */,
+				516DB46AB55A68D9B142FFA0EB2C84CA /* Validation.swift */,
+				2421A8A55BEBC40AF39D87FE3DE461C6 /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CE69582589B47155798CF80675C51AC9 /* Pods-MerchantiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				B14FCBBF84BCB146AB16B45DD5C6A809 /* Pods-MerchantiOSTests.modulemap */,
+				A73F8AD9E94DA24FE3A9CCB81EF2DCC8 /* Pods-MerchantiOSTests-acknowledgements.markdown */,
+				DF4C8E4F1AE10D3A31C3B5EEE9CAB373 /* Pods-MerchantiOSTests-acknowledgements.plist */,
+				B2D09BF131BC8FD752FBD6D8F9DA528D /* Pods-MerchantiOSTests-dummy.m */,
+				8BD7C442095B6E8185A9AB2CD6BCEE2C /* Pods-MerchantiOSTests-Info.plist */,
+				74EF97D3665C8547B10B474DD2938050 /* Pods-MerchantiOSTests-umbrella.h */,
+				40025352A3F517CACDCAF9BD8EB2BAC2 /* Pods-MerchantiOSTests.debug.xcconfig */,
+				2E9C87877230F357E3EC6944CF5A0C6B /* Pods-MerchantiOSTests.release.xcconfig */,
+			);
+			name = "Pods-MerchantiOSTests";
+			path = "Target Support Files/Pods-MerchantiOSTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2DDE09AE7EA16AFC6F6723E2DCAA9C13 /* Pods */,
+				53F40421CF782691372829E689B15640 /* Products */,
+				0027FAE515A202247DD7EACE448C9866 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F57EDA4E52DBA101F9A83D0EAC78E0C1 /* ButtonMerchant */ = {
+			isa = PBXGroup;
+			children = (
+				723165158FDEE5010CDE2A39437866B7 /* ASIdentifierManagerExtensions.swift */,
+				91685F3BDF818BCBF179BEBD43ED5153 /* BundleExtensions.swift */,
+				D08857920829F7CD5A8E78F9BAAFF11D /* ButtonDefaults.swift */,
+				7C606A61CA8C4A3C83DCC6946F8B2622 /* ButtonMerchant.swift */,
+				7635E86814E2354588E615496B4A8C4E /* CalendarExtensions.swift */,
+				C12D888944C13C1DC9DAA34924194B2E /* Client.swift */,
+				7B3675EED06EFC8DA38909BE5E8391D5 /* ConfigurationError.swift */,
+				E6BAEAF20A764710BE14863BE9B85BED /* Core.swift */,
+				895E9B8A5EA59F54393E2F42B15E49C7 /* DateExtensions.swift */,
+				5D078E0E40E4D9C23742CAB59FB5BE31 /* EncodableExtensions.swift */,
+				E643490939D6BAC5F28ADC3422AE6D6C /* FileManagerExtensions.swift */,
+				3D3AEDB532BE76BF696947BA205365B0 /* LocaleExtensions.swift */,
+				09C2FA5F2A6678E9C5BA6BC5CB0EE10A /* NotificationCenterExtensions.swift */,
+				8B05490411A3C0FC86A44407E0234131 /* NotificationExtensions.swift */,
+				A6E328E5942100E4B255FD5995770F81 /* Order.swift */,
+				7EA78D51C0A9B42C8A6D7FEA69D8F807 /* PostInstallBody.swift */,
+				4A0F514BC9161C5CAEBDD230A3E41B0F /* System.swift */,
+				BC92C0AF88DA207C71CFCCCB086981AF /* TrackOrderBody.swift */,
+				F96E6FBDDE54F3468A94DB1C83962100 /* UIDeviceExtensions.swift */,
+				D9B052525EF641A383AF6A5E2626BA85 /* UIScreenExtensions.swift */,
+				14BFFCD7DAA684F74B9EBE72E24BE9C2 /* URLSessionDataTaskExtensions.swift */,
+				1A4EB20012AD57EC0588D51C721209F7 /* URLSessionExtensions.swift */,
+				36991B5AD649B3831065BBB8878D985D /* UserAgent.swift */,
+				A966ED64AAAC6472C539EFB0CC3ECC9E /* UserDefaultsExtensions.swift */,
+				8DEC2F03A6A5DD5695E877FD2FEAF5F3 /* Version.generated.swift */,
+				57C1CFB691139978D8F41A2BC29D55A0 /* Support Files */,
+			);
+			name = ButtonMerchant;
+			path = ButtonMerchant;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1C45CF16BDBE96B80910983FD8503C8A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2DFDF7B3126007454C765DBB9630237 /* Pods-MerchantiOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2582784E4FA6A1AC5D23FC53AC3F6EE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B74645E07C39771156A1FA413B98D4 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32F6FFFFEEB0B9E93CA4FC735B31DBE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF485F0548CD9792654C70390FE93219 /* ButtonMerchant-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0EB33C6651F18925E79B0669ACADCA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E7B8C1F2EF89590E92A7CABDE7A857 /* Pods-MerchantiOSUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89BA5E8EF397EDA3DDB5D072E2443FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				304903E1CB687EB28993A614C84835BF /* Pods-MerchantiOSTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		30CA18CEE3B118BC3FBDE54933EB8CD9 /* Pods-MerchantiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C49E778004D5D1A15E39E7A3D312379D /* Build configuration list for PBXNativeTarget "Pods-MerchantiOSUITests" */;
+			buildPhases = (
+				EE0EB33C6651F18925E79B0669ACADCA /* Headers */,
+				6FBB41766B8532DAE8A93B2417D7C3AC /* Sources */,
+				7F2488E6EF40BCA52E2733F1ED16110D /* Frameworks */,
+				0C6083D80A6E792C495D8BF671B2B30B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECC9C7270BED77B3E1ED32FA3019A8CC /* PBXTargetDependency */,
+			);
+			name = "Pods-MerchantiOSUITests";
+			productName = "Pods-MerchantiOSUITests";
+			productReference = 7464518040FB43A4A7EE9280C94BA86A /* Pods_MerchantiOSUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8C8A572479EB260A440CC08D33B43812 /* Pods-MerchantiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91583BB7BC6AD7590710536587826E3B /* Build configuration list for PBXNativeTarget "Pods-MerchantiOS" */;
+			buildPhases = (
+				1C45CF16BDBE96B80910983FD8503C8A /* Headers */,
+				DEE280FD01297BC41CFD844A52E65401 /* Sources */,
+				4EE5212166F841EF1EB919B18D695CD8 /* Frameworks */,
+				1447DAD633EBF65A47C9FE8E1DEEA480 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97A242525B65068C2E096259DDF3C5F2 /* PBXTargetDependency */,
+				6773990174D2F8F06129B117A53CC2AE /* PBXTargetDependency */,
+			);
+			name = "Pods-MerchantiOS";
+			productName = "Pods-MerchantiOS";
+			productReference = 9E65DB4244A7F6F87077396DFAB30E64 /* Pods_MerchantiOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D853A65889B90F0F938778B0001CD0A3 /* Pods-MerchantiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8EC00E3E11C6A77757A0791D4EB6635 /* Build configuration list for PBXNativeTarget "Pods-MerchantiOSTests" */;
+			buildPhases = (
+				F89BA5E8EF397EDA3DDB5D072E2443FB /* Headers */,
+				1033BC463C7FCD5C28A270BAB0B0CA4E /* Sources */,
+				8C19244830EDA8194C77AE49C84CD51C /* Frameworks */,
+				A9FDBD675AB2F8ACE643C110BE1CB3FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				531B4A4A4DB38E2CA361A78DD02BEB1F /* PBXTargetDependency */,
+			);
+			name = "Pods-MerchantiOSTests";
+			productName = "Pods-MerchantiOSTests";
+			productReference = 4A3DD425BDCDDAC5EE79422BD63D689C /* Pods_MerchantiOSTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E249FF633F08602DEA7B407AC8AFF0BF /* ButtonMerchant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74C88F3867FE1BDC981C66E766C2D23F /* Build configuration list for PBXNativeTarget "ButtonMerchant" */;
+			buildPhases = (
+				C32F6FFFFEEB0B9E93CA4FC735B31DBE /* Headers */,
+				0E7DA6B2C97B4418384D80442A633969 /* Sources */,
+				221B6E25A47DF11088D685C9E806E8B4 /* Frameworks */,
+				2B9B81D886B5FFBDF5F1555AF3087537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtonMerchant;
+			productName = ButtonMerchant;
+			productReference = 2044C9CE5C39BA6323DEEA36F35DEB50 /* ButtonMerchant.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4A5194ABAF7A4780609E0E581DA6B54 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				2582784E4FA6A1AC5D23FC53AC3F6EE2 /* Headers */,
+				2DDFD9AC10F181CD7130BDF5F9E0502B /* Sources */,
+				090C1D63463ACF622287EFF9D5C9392D /* Frameworks */,
+				473D3E892ABB6C798CFF290644259B34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 53F40421CF782691372829E689B15640 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
+				E249FF633F08602DEA7B407AC8AFF0BF /* ButtonMerchant */,
+				8C8A572479EB260A440CC08D33B43812 /* Pods-MerchantiOS */,
+				D853A65889B90F0F938778B0001CD0A3 /* Pods-MerchantiOSTests */,
+				30CA18CEE3B118BC3FBDE54933EB8CD9 /* Pods-MerchantiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C6083D80A6E792C495D8BF671B2B30B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1447DAD633EBF65A47C9FE8E1DEEA480 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B9B81D886B5FFBDF5F1555AF3087537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		473D3E892ABB6C798CFF290644259B34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FDBD675AB2F8ACE643C110BE1CB3FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E7DA6B2C97B4418384D80442A633969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11951A3F05D0A1CC3DA98080C1153495 /* ASIdentifierManagerExtensions.swift in Sources */,
+				D23E37D9AAB0C533E8122750A031E081 /* BundleExtensions.swift in Sources */,
+				D7CD36B7898761EBCC6FA02987CC5524 /* ButtonDefaults.swift in Sources */,
+				3C488863C8758372FE92DE8F3241F655 /* ButtonMerchant-dummy.m in Sources */,
+				93FA467BCEC4E9036BA29101AC61F19E /* ButtonMerchant.swift in Sources */,
+				BFDA2E7F74C68FD9EE62FB1E33411F44 /* CalendarExtensions.swift in Sources */,
+				721508CB40B4917F06588BF3B65FF900 /* Client.swift in Sources */,
+				715B7DF8A1467C16085FCFD700C40997 /* ConfigurationError.swift in Sources */,
+				BEF8FAC66C96F327CFEB251ACE218FC4 /* Core.swift in Sources */,
+				A4C94FC45D4C0B22AF50E35DA677E684 /* DateExtensions.swift in Sources */,
+				E1A4942C61A11D57EB11E34FDD0F7666 /* EncodableExtensions.swift in Sources */,
+				4ADC0C4D32F6514B92CBFA2DFB347783 /* FileManagerExtensions.swift in Sources */,
+				CB4A437154A7258B960F348254CF98AF /* LocaleExtensions.swift in Sources */,
+				4210DFBBD034137B555F53595CEC4A1C /* NotificationCenterExtensions.swift in Sources */,
+				9C981919FE0790FB89CE2EA5FA57E9FC /* NotificationExtensions.swift in Sources */,
+				A373DA6D2D100B5AAE7941D7EB7689A4 /* Order.swift in Sources */,
+				C37F9D52212D00D9EB3A535018E44370 /* PostInstallBody.swift in Sources */,
+				16B359F35E9BC72D1B6E417586FF4569 /* System.swift in Sources */,
+				E0F415A16F3C35F7CAA1BB307EB17861 /* TrackOrderBody.swift in Sources */,
+				BE4BD3D46DF6F3615ACD7BA0CE656DF0 /* UIDeviceExtensions.swift in Sources */,
+				F32D651742AE6CB91CB630B1BB369897 /* UIScreenExtensions.swift in Sources */,
+				EB2AA0412C9982D91A4C8FEFF87673A4 /* URLSessionDataTaskExtensions.swift in Sources */,
+				2565DFC706047AFB1A7E464A12CE90AE /* URLSessionExtensions.swift in Sources */,
+				DAF29BAFF4DBFDD6F6CAD8F395031C3A /* UserAgent.swift in Sources */,
+				91A7647E8A1D11F72F35BF13C58CD014 /* UserDefaultsExtensions.swift in Sources */,
+				2498668E1DDA84303D8CF76BD6C6256E /* Version.generated.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1033BC463C7FCD5C28A270BAB0B0CA4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				095F3C0238711EAC65F1450784009169 /* Pods-MerchantiOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DDFD9AC10F181CD7130BDF5F9E0502B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83956E20859CDBBE7BC38ABADE0170FB /* AFError.swift in Sources */,
+				1945CD5D63A1C164AEAAA9A33E85571E /* Alamofire-dummy.m in Sources */,
+				BEE6B677416CA71C981D1D3F60B18C96 /* Alamofire.swift in Sources */,
+				D3D8C379C6E4FB487E5ABD6800AD7B7E /* DispatchQueue+Alamofire.swift in Sources */,
+				1986B50C74F1697EA43F68335C93CEB3 /* MultipartFormData.swift in Sources */,
+				3571F958A3907B3A806E62D50C2550D4 /* NetworkReachabilityManager.swift in Sources */,
+				132E0F619E4338E5D1B27E4C72076B3F /* Notifications.swift in Sources */,
+				0C5E11DE24DAA737704B355F5F2F3426 /* ParameterEncoding.swift in Sources */,
+				98A929C8E9012AB167672714FFD2113C /* Request.swift in Sources */,
+				D65C254F5ABF2CB5ECEE50FE8F8E1A80 /* Response.swift in Sources */,
+				E3747EC31FCCA97D75A81FC700CF7E24 /* ResponseSerialization.swift in Sources */,
+				64744C911253C3E01461FAD7C935C8D7 /* Result.swift in Sources */,
+				F13F2AA7F2E6D95A181CAB99B900D531 /* ServerTrustPolicy.swift in Sources */,
+				2C61B040BA6A9A7AE66C4D9BA26D5520 /* SessionDelegate.swift in Sources */,
+				931BBB8230A25161D5C37528A8F9FECF /* SessionManager.swift in Sources */,
+				AFC64B1097F7355FF423D6A73E9C7210 /* TaskDelegate.swift in Sources */,
+				933FDA5970AA525D6CB92BFEBA2BAB4A /* Timeline.swift in Sources */,
+				53791F5E5F07400F92CFDFC89A432305 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FBB41766B8532DAE8A93B2417D7C3AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73647729A0CF69E252C16B0F2A80D90F /* Pods-MerchantiOSUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE280FD01297BC41CFD844A52E65401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FEBF46D1142743BB2C16BCA30A65F0 /* Pods-MerchantiOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		531B4A4A4DB38E2CA361A78DD02BEB1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MerchantiOS";
+			target = 8C8A572479EB260A440CC08D33B43812 /* Pods-MerchantiOS */;
+			targetProxy = 87319279EFA3A163248B231EAD2B4281 /* PBXContainerItemProxy */;
+		};
+		6773990174D2F8F06129B117A53CC2AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ButtonMerchant;
+			target = E249FF633F08602DEA7B407AC8AFF0BF /* ButtonMerchant */;
+			targetProxy = 6A6D3B3CAE6752852D5FE4B7DC3511D5 /* PBXContainerItemProxy */;
+		};
+		97A242525B65068C2E096259DDF3C5F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 866FC038E47C1BB5A93199A2984D3939 /* PBXContainerItemProxy */;
+		};
+		ECC9C7270BED77B3E1ED32FA3019A8CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MerchantiOS";
+			target = 8C8A572479EB260A440CC08D33B43812 /* Pods-MerchantiOS */;
+			targetProxy = 866E4256C8883BAFA5AA6AF3A1FBBE4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		307118F3C1CE26DF1DBACB8CF23D9454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26A72147CFD399F44D2D7F2C256E8BB7 /* Pods-MerchantiOSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MerchantiOSUITests/Pods-MerchantiOSUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MerchantiOSUITests/Pods-MerchantiOSUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		32C2FB3BD9A2402E2347CE50F405010A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		427CC76C4A0D2313B395E0BB95F76060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 268DA27396894CD0092ACBDBE820998F /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		42FE5DC2A132F00CBDDA408C84284C05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 778B82AAF91BBB4BE704CFC580CF4DBC /* ButtonMerchant.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ButtonMerchant/ButtonMerchant-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ButtonMerchant/ButtonMerchant-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ButtonMerchant/ButtonMerchant.modulemap";
+				PRODUCT_MODULE_NAME = ButtonMerchant;
+				PRODUCT_NAME = ButtonMerchant;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4DDFA310EF5CFB5C4EEACA6BD18F94B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DC1A4922EC480A72DBA69D8025EE55E /* Pods-MerchantiOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MerchantiOS/Pods-MerchantiOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MerchantiOS/Pods-MerchantiOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		63C155F90925A742A0FCCD8CBB3D758B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E9C87877230F357E3EC6944CF5A0C6B /* Pods-MerchantiOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MerchantiOSTests/Pods-MerchantiOSTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MerchantiOSTests/Pods-MerchantiOSTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		65E8432CA1AC1817F746BE6B5C4F067E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7BF79E11F0BA26A86ABB9EE6CCBCEE5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CFBD6B4E193FC8D2C243E1A5339DDA7 /* Pods-MerchantiOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MerchantiOS/Pods-MerchantiOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MerchantiOS/Pods-MerchantiOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		811DEC4FF636A6B5C62B23658BC74CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40025352A3F517CACDCAF9BD8EB2BAC2 /* Pods-MerchantiOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MerchantiOSTests/Pods-MerchantiOSTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MerchantiOSTests/Pods-MerchantiOSTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		96C891B8697E2C73BABA85937639DFF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 268DA27396894CD0092ACBDBE820998F /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E234572231A6DFAC6BD99637F2E7698A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89F951E3372EE5373064529F570B5C9D /* Pods-MerchantiOSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MerchantiOSUITests/Pods-MerchantiOSUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MerchantiOSUITests/Pods-MerchantiOSUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F782A4E3C8D7DB000DF382A9B01B294A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 778B82AAF91BBB4BE704CFC580CF4DBC /* ButtonMerchant.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ButtonMerchant/ButtonMerchant-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ButtonMerchant/ButtonMerchant-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ButtonMerchant/ButtonMerchant.modulemap";
+				PRODUCT_MODULE_NAME = ButtonMerchant;
+				PRODUCT_NAME = ButtonMerchant;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E8432CA1AC1817F746BE6B5C4F067E /* Debug */,
+				32C2FB3BD9A2402E2347CE50F405010A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74C88F3867FE1BDC981C66E766C2D23F /* Build configuration list for PBXNativeTarget "ButtonMerchant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F782A4E3C8D7DB000DF382A9B01B294A /* Debug */,
+				42FE5DC2A132F00CBDDA408C84284C05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91583BB7BC6AD7590710536587826E3B /* Build configuration list for PBXNativeTarget "Pods-MerchantiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DDFA310EF5CFB5C4EEACA6BD18F94B0 /* Debug */,
+				7BF79E11F0BA26A86ABB9EE6CCBCEE5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C49E778004D5D1A15E39E7A3D312379D /* Build configuration list for PBXNativeTarget "Pods-MerchantiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E234572231A6DFAC6BD99637F2E7698A /* Debug */,
+				307118F3C1CE26DF1DBACB8CF23D9454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4A5194ABAF7A4780609E0E581DA6B54 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				427CC76C4A0D2313B395E0BB95F76060 /* Debug */,
+				96C891B8697E2C73BABA85937639DFF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8EC00E3E11C6A77757A0791D4EB6635 /* Build configuration list for PBXNativeTarget "Pods-MerchantiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				811DEC4FF636A6B5C62B23658BC74CEA /* Debug */,
+				63C155F90925A742A0FCCD8CBB3D758B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
