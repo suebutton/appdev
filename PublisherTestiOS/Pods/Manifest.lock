@@ -1,0 +1,16 @@
+PODS:
+  - Button (6.15.0)
+
+DEPENDENCIES:
+  - Button (~> 6)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Button
+
+SPEC CHECKSUMS:
+  Button: 293c715efd628a84a613bab1bea755876d617942
+
+PODFILE CHECKSUM: dcda3092bab0c43d733ccf2251f2cd1adbd7c8ce
+
+COCOAPODS: 1.7.5
